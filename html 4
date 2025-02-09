@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="my style.css"rel="stylesheet"type="text/css">
+</head>
+<body>
+    <!--create a container element-->
+    <div class="grid-container">
+        <!--create a grid items-->
+        <div class="grid-item"><img src="https://plantsguru.com/cdn/shop/files/plantsguru-flowering-plants-rose-red_13eb00f8-8047-4b73-bdd7-47483065a292.jpg?v=1735618037&"width="205"height="200"></div>
+        <div class="grid-item"><img src="https://plantsguru.com/cdn/shop/files/plantsguru-flowering-plants-rose-red_13eb00f8-8047-4b73-bdd7-47483065a292.jpg?v=1735618037&"width="205"height="200"></div>
+        <div class="grid-item"><img src="https://plantsguru.com/cdn/shop/files/plantsguru-flowering-plants-rose-red_13eb00f8-8047-4b73-bdd7-47483065a292.jpg?v=1735618037&"width="205"height="200"></div>
+        <div class="grid-item"><img src="https://plantsguru.com/cdn/shop/files/plantsguru-flowering-plants-rose-red_13eb00f8-8047-4b73-bdd7-47483065a292.jpg?v=1735618037&"width="205"height="200"></div>
+        <div class="grid-item"><img src="https://plantsguru.com/cdn/shop/files/plantsguru-flowering-plants-rose-red_13eb00f8-8047-4b73-bdd7-47483065a292.jpg?v=1735618037&"width="205"height="200"></div>
+        <div class="grid-item"><img src="https://plantsguru.com/cdn/shop/files/plantsguru-flowering-plants-rose-red_13eb00f8-8047-4b73-bdd7-47483065a292.jpg?v=1735618037&"width="205"height="200"></div>
+    </div>
+
+<style>
+/* style the grid container */
+.grid-container {
+    display:grid;/*make the container a grid container */ 
+grid-template-column:repeat(3,1fr);/*create a grid with 3colomns */
+grid-gap:30px;/*add a gap between grid items */ 
+padding:10px;/*add some padding to the container */ 
+}
+
+/*style the grid items*/ 
+.grid-item {
+    background-color:rgb(119, 143, 170);/*set the background color of each grid item */ 
+    padding:20px;/*add a some padding to each grid item */ 
+    border:0px solid #633915;/*add a border to each grid item */ 
+}
+</style>
+</body>
+</html>
